@@ -53,7 +53,7 @@ async def main():
                 start_time = None
 
             mp_draw.draw_landmarks(img, result.multi_hand_landmarks[0], mp.solutions.hands.HAND_CONNECTIONS)
-        #cv2.imshow("Hand Tracking", img)
+        #cv2.imshow("fingerminger", img)
         cv2.waitKey(1)
 
 asyncio.run(main())
